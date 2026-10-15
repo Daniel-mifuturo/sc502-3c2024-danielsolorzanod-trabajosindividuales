@@ -1,0 +1,139 @@
+body {
+    background: white;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.navbar, 
+.contact-section{
+    background: rgb(41, 41, 145);
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px solid;
+    color: white;
+    text-align: center;
+    border: 2px solid;
+    gap: 20px;    
+}
+
+.doctor-section{
+    background-color: rgb(41, 41, 145);
+    width: 1780px;
+    height: auto;
+    padding: 20px 20px;
+    margin: 20px auto;
+    font-size: 2em;
+    border-color: black;
+    border: 2px solid,;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;  
+}
+
+p{
+    font-size: 1.3em;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.reviews-section{
+    background-color: rgb(41, 41, 145);
+    width: 1780px;
+    height: auto;
+    padding: 20px;
+    margin: 20px auto;
+    border-color: black;
+    border: 2px solid;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 10px;
+    color: white;
+}
+
+.reviews-container{
+    background-color: rgb(12, 12, 194);
+    width: 800px;
+    display: flex;
+    padding: 20px;
+    margin: 20px auto;
+    border-color: black;
+    border: 2px solid;
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 10px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 350px;
+    align-items:flex-start;
+    
+}
+
+.contact-section a{
+    padding: 15px;
+}
+
+
+.nav-links a,
+.contact-section a {    
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 12.5px 30px;
+    border: 2px solid;
+    border-color: white;
+    width: auto;
+    background-color: blue;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.doctor-section a  {    
+    
+    color: white;
+    text-decoration: none;
+    padding: 12.5px 30px;
+    border: 2px solid;
+    border-color: white;
+    width: 220px;
+    background-color: blue;
+    border-radius: 50px;
+}
+
+
+.nav-links:hover,
+.nav-links a:hover,
+.contact-section a:hover, 
+.doctor-section a:hover{
+    color:aquamarine;
+    border-color: aquamarine;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: auto;
+    height: 480px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: groove;
+}
+
+
+
+
